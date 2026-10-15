@@ -26,7 +26,7 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
     var jenis by remember { mutableStateOf("") }
 
     Column(
-        modifier = modifier.padding(top = 50.dp),
+        modifier = modifier.padding(top = dimensionResource(R.dimen.padding_atas)),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
