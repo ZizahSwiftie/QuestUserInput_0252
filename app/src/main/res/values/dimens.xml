@@ -7,4 +7,5 @@
     <dimen name="card_elevation">10dp</dimen>
     <dimen name="padding_kecil">5dp</dimen>
     <dimen name="padding_teks_vertikal">15dp</dimen>
+    <dimen name="padding_atas">50dp</dimen>
 </resources>
