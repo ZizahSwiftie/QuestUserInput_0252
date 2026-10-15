@@ -99,9 +99,9 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                     vertical = dimensionResource(R.dimen.padding_teks_vertikal)
                 )
             ) {
-                Text(text = "Nama : " + nama, color = Color.White)
-                Text(text = "Gender : " + jenis, color = Color.White)
-                Text(text = "Alamat : " + alamat, color = Color.White)
+                Text(text = stringResource(R.string.label_hasil_nama) + nama, color = Color.White)
+                Text(text = stringResource(R.string.label_hasil_gender) + jenis, color = Color.White)
+                Text(text = stringResource(R.string.label_hasil_alamat) + alamat, color = Color.White)
             }
         }
 
