@@ -84,6 +84,17 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             Text(stringResource(R.string.label_submit))
         }
 
+        ElevatedCard(
+            elevation = CardDefaults.cardElevation(
+                defaultElevation = dimensionResource(R.dimen.card_elevation)
+            ),
+            colors = CardDefaults.cardColors(containerColor = Color.Black),
+            modifier = Modifier
+                .height(dimensionResource(R.dimen.card_tinggi))
+                .width(dimensionResource(R.dimen.card_lebar))
+        ) {
+        }
+
         if (nama.isNotEmpty()) {
             Card(modifier = Modifier.padding(dimensionResource(R.dimen.padding_medium))) {
                 Column(Modifier.padding(dimensionResource(R.dimen.padding_medium))) {
