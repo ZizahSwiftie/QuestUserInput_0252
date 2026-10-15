@@ -6,4 +6,7 @@
     <string name="jk_laki">Laki-laki</string>
     <string name="jk_perempuan">Perempuan</string>
     <string name="title_hasil">Data Diri</string>
+    <string name="label_hasil_nama">Nama : </string>
+    <string name="label_hasil_gender">Gender : </string>
+    <string name="label_hasil_alamat">Alamat : </string>
 </resources>
