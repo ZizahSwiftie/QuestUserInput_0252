@@ -93,6 +93,16 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 .height(dimensionResource(R.dimen.card_tinggi))
                 .width(dimensionResource(R.dimen.card_lebar))
         ) {
+            Column(
+                modifier = Modifier.padding(
+                    horizontal = dimensionResource(R.dimen.padding_kecil),
+                    vertical = dimensionResource(R.dimen.padding_teks_vertikal)
+                )
+            ) {
+                Text(text = "Nama : " + nama, color = Color.White)
+                Text(text = "Gender : " + jenis, color = Color.White)
+                Text(text = "Alamat : " + alamat, color = Color.White)
+            }
         }
 
         if (nama.isNotEmpty()) {
