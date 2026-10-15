@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="divider_tipis">1dp</dimen>
+    <dimen name="lebar_field">250dp</dimen>
+</resources><?xml version="1.0" encoding="utf-8"?>
